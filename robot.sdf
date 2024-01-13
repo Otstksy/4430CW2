@@ -1,6 +1,7 @@
 <?xml version='1.0'?>
 <sdf version='1.7'>
   <model name='CW2_robot'>
+  <arg name="robot_scale" default="0.5"/> 
     <link name='link_0'>
       <inertial>
         <mass>0.132002</mass>
