@@ -1,0 +1,12 @@
+<!-- my_gazebo_world.launch -->
+
+<launch>
+
+  <!-- Start Gazebo with the specified world file -->
+  <arg name="world_name" default="$(find cw1)/launch/assessment.world"/>
+  <include file="$(find gazebo_ros)/launch/empty_world.launch">
+    <arg name="world_name" value="$(arg world_name)"/>
+  </include>
+
+</launch>
+
